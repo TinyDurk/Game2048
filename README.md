@@ -12,7 +12,7 @@
 
 游戏主页面：
 
-![](https://github.com/TinyDurk/Game2048/tree/master/readmePic/home.png)
+![](https://github.com/TinyDurk/Game2048/blob/master/readmePic/home.png)
 
 ## 使用的框架
 
