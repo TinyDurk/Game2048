@@ -1,4 +1,4 @@
-I# 《Game2048》
+# 《Game2048》
 
 ## 简介
 
@@ -12,7 +12,7 @@ I# 《Game2048》
 
 游戏主页面：
 
-![](https://github.com/dorkpon/Game2048/raw/master/readmePic/home.png)
+![](https://github.com/TinyDurk/Game2048/tree/master/readmePic/home.png)
 
 ## 使用的框架
 
@@ -21,9 +21,9 @@ jQuery
 ## 项目结构
 
 - `index.html`
- 
+
     - 主要结构由得分区`score_container`和游戏区`game_container`构成。
- 
+
 - 2048.css
 - 2048.js
 
@@ -112,7 +112,7 @@ event.prevent.Default();
 
 ```js
 this.startX = event.touches[0].clientX;
-this.startY = event.touches[0].clientY;	
+this.startY = event.touches[0].clientY;
 ```
 终止位置：
 
@@ -276,8 +276,8 @@ for (var j = 0; j < 4; j++) {
 判定滑动标志`slide`为真后，调random()方法随机位置生成随机数，再把标志置为false
 
 ```js
-if (this.slide) { 
-	this.randomNum(); 
+if (this.slide) {
+	this.randomNum();
 	this.slide = false;
 }
 ```
@@ -317,7 +317,7 @@ for (var j = 0; j < 4; j++) {
 	}
 }
 
-if (xCount == 12 && yCount == 12) { 
+if (xCount == 12 && yCount == 12) {
 	alert("Game Over! Please click the \"Restart\" button to restart the Game2048!")
 }
 ```
